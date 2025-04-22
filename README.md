@@ -1,0 +1,2 @@
+# ArkAnalyzer-SoftwareSecurity-homework
+当前仓库是BUAA软件安全课程的鸿蒙系统ArkAnalyer以及权限控制相关的作业源码
