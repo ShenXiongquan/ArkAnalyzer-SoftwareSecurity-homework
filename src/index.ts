@@ -22,11 +22,10 @@ async function main() {
 //     return;
 //   }
 //   console.log(`找到${projectDirs.length}个项目，开始分析...`);
-    const map=await ExcelUtils.loadMappingsFromExcel(APIS_PATH);
+
   // 初始化权限分析器
     const analyzer = new PermissionAnalyzer(APIS_PATH,CONFIG);
   
-
     const result =await analyzer.analyzePermissions();
    
   
