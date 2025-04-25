@@ -103,28 +103,26 @@ export class PermissionAnalyzer {
     let declaredPermissions: string[] = [];
     const manifestPath = path.join(this.projectPath, 'entry/src/main/module.json5');
     console.log('解析路径:', manifestPath);
-
     if (fs.existsSync(manifestPath)) {
       try {
-        const content = fs.readFileSync(manifestPath, 'utf-8');
-        try {
-          // 尝试直接解析JSON
-          const manifest = JSON.parse(content);
-          declaredPermissions = [...declaredPermissions, ...this.extractPermissionsFromManifest(manifest)];
-        } catch (jsonError) {
-          // 如果直接JSON解析失败，可能是JSON5格式，尝试处理常见的JSON5语法
-          const cleanedContent = content
-            .replace(/\/\/.*$/gm, '') // 移除单行注释
-            .replace(/\/\*[\s\S]*?\*\//g, '') // 移除多行注释
-            .replace(/,\s*([}\]])/g, '$1'); // 移除尾随逗号
+            const content = fs.readFileSync(manifestPath, 'utf-8');
+            // try {
+            //   // 尝试直接解析JSON
+            //   const manifest = JSON.parse(content);
+            //   declaredPermissions = [...declaredPermissions, ...this.extractPermissionsFromManifest(manifest)];
+            // } catch (jsonError) {
+            const cleanedContent = content
+              .replace(/\/\/.*$/gm, '') // 移除单行注释
+              .replace(/\/\*[\s\S]*?\*\//g, '') // 移除多行注释
+              .replace(/,\s*([}\]])/g, '$1'); // 移除尾随逗号
 
-          try {
-            const manifest = JSON.parse(cleanedContent);
-            declaredPermissions = [...declaredPermissions, ...this.extractPermissionsFromManifest(manifest)];
-          } catch (cleanJsonError) {
-            console.error(`无法解析文件 ${manifestPath} 的内容，它可能不是有效的JSON或JSON5`);
-          }
-        }
+            try {
+              const manifest = JSON.parse(cleanedContent);
+              declaredPermissions = [...declaredPermissions, ...this.extractPermissionsFromManifest(manifest)];
+            } catch (cleanJsonError) {
+              console.error(`无法解析文件 ${manifestPath} 的内容，可能不是有效的JSON或JSON5`);
+            }
+        // }
       } catch (error) {
         console.error(`读取清单文件 ${manifestPath} 时出错:`, error);
       }
