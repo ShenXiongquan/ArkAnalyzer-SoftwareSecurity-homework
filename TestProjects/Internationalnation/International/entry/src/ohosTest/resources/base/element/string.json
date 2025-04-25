@@ -1,0 +1,64 @@
+{
+  "string": [
+    {
+      "name": "module_test_desc",
+      "value": "test ability description"
+    },
+    {
+      "name": "TestAbility_desc",
+      "value": "the test ability"
+    },
+    {
+      "name": "TestAbility_label",
+      "value": "test international"
+    },
+    {
+      "name": "language_region",
+      "value": "Language and region"
+    },
+    {
+      "name": "add_language",
+      "value": "Add language"
+    },
+    {
+      "name": "current_region",
+      "value": "Current region"
+    },
+    {
+      "name": "united_states",
+      "value": "United States"
+    },
+    {
+      "name": "china",
+      "value": "China"
+    },
+    {
+      "name": "date_time",
+      "value": "Date and time"
+    },
+    {
+      "name": "date",
+      "value": "Date"
+    },
+    {
+      "name": "time",
+      "value": "Time"
+    },
+    {
+      "name": "ok",
+      "value": "OK"
+    },
+    {
+      "name": "time_zone",
+      "value": "TimeZone"
+    },
+    {
+      "name": "format_example",
+      "value": "Locale format example"
+    },
+    {
+      "name": "edit_language",
+      "value": "Edit language"
+    }
+  ]
+}

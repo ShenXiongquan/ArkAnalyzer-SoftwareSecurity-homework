@@ -1,0 +1,28 @@
+{
+  "string": [
+    {
+      "name": "module_test_desc",
+      "value": "test ability description"
+    },
+    {
+      "name": "TestAbility_desc",
+      "value": "the test ability"
+    },
+    {
+      "name": "TestAbility_label",
+      "value": "test label"
+    },
+    {
+      "name": "available_wlan",
+      "value": "available wlan"
+    },
+    {
+      "name": "encrypt",
+      "value": "encrypt"
+    },
+    {
+      "name": "only_accept_during_use",
+      "value": "only_accept_during_use"
+    }
+  ]
+}

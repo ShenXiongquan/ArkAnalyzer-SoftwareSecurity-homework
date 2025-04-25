@@ -1,0 +1,32 @@
+{
+  "string": [
+    {
+      "name": "entry_test_desc",
+      "value": "test ability description"
+    },
+    {
+      "name": "TestAbility_desc",
+      "value": "the test ability"
+    },
+    {
+      "name": "TestAbility_label",
+      "value": "test label"
+    },
+    {
+      "name": "bluetooth",
+      "value": "Bluetooth"
+    },
+    {
+      "name": "match",
+      "value": "Match"
+    },
+    {
+      "name": "match_request",
+      "value": "Match request"
+    },
+    {
+      "name": "only_accept_during_use",
+      "value": "only_accept_during_use"
+    }
+  ]
+}

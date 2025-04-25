@@ -1,0 +1,13 @@
+{
+    "targetProjectName": "TaintTest",
+    "targetProjectDirectory": "D:/University/2022SoftEngineering/2025上software/软件安全/ArkAnalyzer-SoftwareSecurity-homework/TestProjects/WindowManagement/WindowRatio",
+    "logPath": "out/ArkAnalyzer.log",
+    "logLevel": "INFO",
+    "sdks": [
+      {
+        "name": "ohosSdk",
+        "path": "C:/Users/SHEN/AppData/Local/OpenHarmony/Sdk/14/ets",
+        "moduleName": ""
+      }
+    ]
+}

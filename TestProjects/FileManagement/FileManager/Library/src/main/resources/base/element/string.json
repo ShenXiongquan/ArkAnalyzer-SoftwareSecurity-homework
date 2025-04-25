@@ -1,0 +1,16 @@
+{
+  "string": [
+    {
+      "name": "page_show",
+      "value": "page from npm package"
+    },
+    {
+      "name": "label_delete_success",
+      "value": "删除成功"
+    },
+    {
+      "name": "tip_invalid_time",
+      "value": "请输入正确的时间"
+    }
+  ]
+}

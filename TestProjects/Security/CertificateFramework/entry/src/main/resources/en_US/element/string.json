@@ -1,0 +1,80 @@
+{
+  "string": [
+    {
+      "name": "tab_certframework",
+      "value": "Certificate Framework"
+    },
+    {
+      "name": "tab_certchain",
+      "value": "Certificate Chain"
+    },
+    {
+      "name": "module_desc",
+      "value": "Certificate Framework"
+    },
+    {
+      "name": "EntryAbility_desc",
+      "value": "Certificate Framework"
+    },
+    {
+      "name": "EntryAbility_label",
+      "value": "Certificate Framework"
+    },
+    {
+      "name": "certificate_data",
+      "value": "Certificate Data"
+    },
+    {
+      "name": "origin_data",
+      "value": "Origin Data"
+    },
+    {
+      "name": "signature_data",
+      "value": "Signature Data"
+    },
+    {
+      "name": "display_data",
+      "value": "Display Data"
+    },
+    {
+      "name": "verify",
+      "value": "CertChain Verify"
+    },
+    {
+      "name": "modify_origin_data",
+      "value": "Modify Origin Data"
+    },
+    {
+      "name": "modify_signature_data",
+      "value": "Modify Signature Data"
+    },
+    {
+      "name": "verify_success",
+      "value": "Verify Success"
+    },
+    {
+      "name": "verify_fail",
+      "value": "Verify Fail"
+    },
+    {
+      "name": "certchain_title",
+      "value": "CertChain Verify"
+    },
+    {
+      "name": "certchain_data",
+      "value": "CertChain Data"
+    },
+    {
+      "name": "certchain_root",
+      "value": "CertChain Root"
+    },
+    {
+      "name": "certchain_crl",
+      "value": "CertChain CRL"
+    },
+    {
+      "name": "certchain_verify_crl",
+      "value": "Verify CRL"
+    }
+  ]
+}

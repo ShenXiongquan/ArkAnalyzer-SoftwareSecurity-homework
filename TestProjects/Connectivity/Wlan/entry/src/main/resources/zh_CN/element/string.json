@@ -1,0 +1,156 @@
+{
+  "string": [
+    {
+      "name": "module_desc",
+      "value": "模块描述"
+    },
+    {
+      "name": "EntryAbility_desc",
+      "value": "description"
+    },
+    {
+      "name": "EntryAbility_label",
+      "value": "Wlan"
+    },
+    {
+      "name": "entry_MainAbility",
+      "value": "eTSWLAN"
+    },
+    {
+      "name": "description_mainability",
+      "value": "eTSWLAN Ability"
+    },
+    {
+      "name": "cancel",
+      "value": "取消"
+    },
+    {
+      "name": "sure",
+      "value": "确定"
+    },
+    {
+      "name": "wlan",
+      "value": "WLAN"
+    },
+    {
+      "name": "available_wlan",
+      "value": "可用WLAN"
+    },
+    {
+      "name": "connected",
+      "value": "已连接"
+    },
+    {
+      "name": "about",
+      "value": "关于"
+    },
+    {
+      "name": "ip_address",
+      "value": "IP地址:"
+    },
+    {
+      "name": "gate_way",
+      "value": "网关:"
+    },
+    {
+      "name": "net_mask",
+      "value": "掩码:"
+    },
+    {
+      "name": "primary_dns",
+      "value": "主DNS服务器:"
+    },
+    {
+      "name": "second_dns",
+      "value": "备DNS服务器:"
+    },
+    {
+      "name": "server_ip",
+      "value": "DHCP服务端ip:"
+    },
+    {
+      "name": "lease_duration",
+      "value": "IP地址租用时长:"
+    },
+    {
+      "name": "country_code",
+      "value": "国家码："
+    },
+    {
+      "name": "infrastructure_feature",
+      "value": "基础结构模式特性:"
+    },
+    {
+      "name": "ghz_feature",
+      "value": "5 GHz 宽带特性:"
+    },
+    {
+      "name": "gas_anqp_feature",
+      "value": "GAS/ANQP特性:"
+    },
+    {
+      "name": "wifi_direct",
+      "value": "WiFi-Direct特性:"
+    },
+    {
+      "name": "soft_ap",
+      "value": "Soft AP特性:"
+    },
+    {
+      "name": "wifi_aware",
+      "value": "WiFi Aware组网特性:"
+    },
+    {
+      "name": "encryption",
+      "value": "加密"
+    },
+    {
+      "name": "open",
+      "value": "开放"
+    },
+    {
+      "name": "location_permission",
+      "value": "允许应用获取设备位置信息"
+    },
+    {
+      "name": "approximately_location_permission",
+      "value": "允许应用获取设备模糊位置信息"
+    },
+    {
+      "name": "GET_WIFI_INFO",
+      "value": "允许应用获取Wi-Fi信息"
+    },
+    {
+      "name": "SET_WIFI_INFO",
+      "value": "允许应用配置Wi-Fi设备"
+    },
+    {
+      "name": "GET_WIFI_INFO_INTERNAL",
+      "value": "允许系统进程获取Wi-Fi相关参数"
+    },
+    {
+      "name": "GET_WIFI_PEERS_MAC",
+      "value": "允许应用获取对端Wi-Fi设备的MAC地址"
+    },
+    {
+      "name": "GET_WIFI_LOCAL_MAC",
+      "value": "允许应用获取本机的Wi-Fi设备的MAC地址"
+    },
+    {
+      "name": "GET_WIFI_CONFIG",
+      "value": "允许应用获取Wi-Fi的配置信息"
+    },
+    {
+      "name": "SET_WIFI_CONFIG",
+      "value": "允许应用配置Wi-Fi信息"
+    },
+    {
+      "name": "MANAGE_WIFI_CONNECTION",
+      "value": "允许应用管理Wi-Fi的连接"
+    },
+    {
+      "name": "MANAGE_WIFI_HOTSPOT",
+      "value": "允许应用开启或关闭Wi-Fi热点"
+    }
+  ]
+}

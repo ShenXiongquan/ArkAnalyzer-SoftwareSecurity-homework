@@ -1,0 +1,40 @@
+{
+  "string": [
+    {
+      "name": "entry_desc",
+      "value": "static subscriber"
+    },
+    {
+      "name": "MainAbility_desc",
+      "value": "static subscriber"
+    },
+    {
+      "name": "StaticSubscriber_desc",
+      "value": "static subscriber"
+    },
+    {
+      "name": "MainAbility_label",
+      "value": "static subscriber"
+    },
+    {
+      "name": "StaticSubscriber_label",
+      "value": "static subscriber"
+    },
+    {
+      "name": "static_subscribe_enable",
+      "value": "Static subscribe enable"
+    },
+    {
+      "name": "static_subscribe_disable",
+      "value": "Static subscribe disable"
+    },
+    {
+      "name": "static_subscribe_enabled",
+      "value": "Static subscribe enabled"
+    },
+    {
+      "name": "static_subscribe_disabled",
+      "value": "Static subscribe disabled"
+    }
+  ]
+}

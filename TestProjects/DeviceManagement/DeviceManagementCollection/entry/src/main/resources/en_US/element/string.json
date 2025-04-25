@@ -1,0 +1,48 @@
+{
+  "string": [
+    {
+      "name": "module_desc",
+      "value": "module description"
+    },
+    {
+      "name": "EntryAbility_desc",
+      "value": "description"
+    },
+    {
+      "name": "device_management",
+      "value": "Device Management"
+    },
+    {
+      "name": "battery_info",
+      "value": "Battery Information"
+    },
+    {
+      "name": "device_info",
+      "value": "Device Information"
+    },
+    {
+      "name": "input_consumer",
+      "value": "Input Consumer"
+    },
+    {
+      "name": "mouse_pointer",
+      "value": "Mouse Pointer"
+    },
+    {
+      "name": "input_event",
+      "value": "Input Event"
+    },
+    {
+      "name": "input_device",
+      "value": "Input Device"
+    },
+    {
+      "name": "input_key_event",
+      "value": "Input Key Event"
+    },
+    {
+      "name": "GET_INSTALLED_BUNDLE_LIST",
+      "value": "Allow apps to read the list of installed apps"
+    }
+  ]
+}
